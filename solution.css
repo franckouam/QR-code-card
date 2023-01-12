@@ -1,22 +1,21 @@
-body
+.center
 {
-    /* display: flex; 
-    flex-direction: row;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     font-family: 'Outfit';
-    background-color: #DCE8F2
+    background-color: #DCE8F2;
+    height: 100vh;
 }
 
 
 
 .card 
 {
-    /* top: 50%; */
     width: fit-content;
     border-radius: 5%;
     background-color: hsl(0, 0%, 100%);
-    margin: 56px auto;
     box-shadow: 1px 1px 48px hsl(220, 15%, 55%);
 }
 
@@ -48,12 +47,19 @@ body
 
 .card-text h3
 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .card-text p
 {
     color: hsl(0, 1%, 50%);
     font-size: 15px;
+}
+
+.attribution 
+{
+    
+    margin-top: 64px;
+    bottom: 0;
 }
 
